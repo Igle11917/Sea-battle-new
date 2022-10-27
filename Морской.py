@@ -256,12 +256,10 @@ class Game:
         self.greet()
         self.loop()
 
-# g = Game()
-# g.start()
+g = Game()
+g.start()
 
-board = Board()
-print(board.field)
-print(board)
+
 
 
 
