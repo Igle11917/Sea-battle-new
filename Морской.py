@@ -69,7 +69,7 @@ class Board:
         for i, row in enumerate(self.field):
             res += f"\n{i + 1} | " + " | ".join(row) + " |"
             if self.hid:
-                res += res.replace("▬", "0")
+                res = res.replace("#", "0")
         return res
 
     def out(self, d):
